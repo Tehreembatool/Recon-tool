@@ -1,0 +1,39 @@
+Recon report for example.com
+Generated: 2025-09-11 00:00:00 UTC
+============================================================
+
+### WHOIS
+WHOIS lookup failed or not available. Please ensure whois.exe is present.
+
+### DNS
+{
+  "A": ["93.184.216.34"],
+  "MX": [],
+  "NS": ["a.iana-servers.net", "b.iana-servers.net"],
+  "TXT": []
+}
+
+### Subdomains
+{
+  "total_found": 0,
+  "sources_used": ["crtsh", "alienvault", "hackertarget"],
+  "subdomains": {}
+}
+
+### PortScan
+{
+  "target_ip": "93.184.216.34",
+  "results": {"22": "closed", "80": "open", "443": "closed"}
+}
+
+### Banners
+{
+  "80": ""
+}
+
+### TechDetect
+{
+  "status_code": 200,
+  "server_header": "ECS (nyb/1D2B)",
+  "x_powered_by": null
+}
